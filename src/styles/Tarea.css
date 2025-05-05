@@ -1,0 +1,103 @@
+
+.Boton {
+background-color: #1f3c81;
+color: white; 
+border: none;
+border-radius: 15px; 
+padding: 10px 20px; 
+text-align: center; 
+text-decoration: none; 
+display: inline-block; 
+font-size: 16px; 
+list-style-type: none;
+font-weight: bold;
+border: 2px solid rgb(164, 164, 197);
+font-style: italic;
+}
+.B1{
+background-color: #1f3981; 
+color: white; 
+border: none; 
+border-radius: 15px; 
+padding: 10px 20px; 
+text-align: center; 
+text-decoration: none; 
+display: inline-block;
+font-size: 16px;
+font-weight: bold; 
+border: 2px solid rgb(164, 164, 197);
+font-style: italic;
+}
+.B2{
+background-color: #1f3c81;
+color: white; 
+border: none; 
+border-radius: 15px; 
+padding: 10px 20px; 
+text-align: center;
+text-decoration: none; 
+display: inline-block;
+font-size: 16px; 
+font-weight: bold; 
+border: 2px solid rgb(164, 164, 197);
+font-style: italic;
+}
+.Boton:hover {
+     background-color: #ffffff; 
+     color: rgb(25, 36, 156);
+}
+.B2:hover {
+       background-color: #fcfcfc; 
+      color: rgb(17, 44, 140);
+    }
+ .B1:hover {
+        background-color: #ffffff; 
+        color: rgb(16, 44, 129);
+        }
+.Lista{
+
+    list-style-type: none; 
+    text-align: left; 
+    background-color: rgb(25, 51, 123);
+    color: white; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    font-size: 35px; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 800px; 
+    margin-left: auto; 
+    margin-right:auto;
+    border: 2px solid rgb(164, 164, 197);
+}
+.textoo{
+
+     color: rgb(255, 255, 255); 
+    background-color: rgb(25, 104, 119);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 25px; 
+    font-weight: bold; 
+    text-align:center; 
+    width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow:0 0 70px rgb(0, 0, 0);
+    font-style: italic;
+}
+input{
+
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 500px; 
+    margin-left: auto; 
+    margin-right:auto;
+    border: 2px solid rgb(0, 0, 0);
+}
