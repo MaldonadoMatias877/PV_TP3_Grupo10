@@ -14,7 +14,8 @@ function Producto() {
   const [filtrado, setFiltrado] = useState(false);
   const [IVA, setIVA] = useState(false);
 
-  
+  // Efecto para mostrar los productos en consola
+
   useEffect(() => {
     productos.forEach(producto => {
       console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
@@ -47,8 +48,6 @@ function Producto() {
     setIVA(true);
   } 
   }
-
-
 
   return (
     <div>
