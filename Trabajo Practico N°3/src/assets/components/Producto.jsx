@@ -67,37 +67,6 @@ function Producto() {
     }
 
 
-    useEffect(() => {
-      productos.forEach(producto => {
-        console.log(`Producto: ${producto.nombre} - Precio: ${producto.precio}`);
-      });
-    }, []);
-  
-      // Función para filtrar productos con precio mayor a 20
-      const filtrarProductos = () => {
-        const filtrados = productos.filter(producto => producto.precio > 20);
-        setLista(filtrados);
-        setFiltrado(true);
-      };
-    const toggleFiltro = () => {
-      if (filtrado) {
-        setLista(productos);
-        setFiltrado(false);
-      } else {
-        const filtrados = productos.filter(producto => producto.precio > 20);
-        setLista(filtrados);
-        setFiltrado(true);
-      }
-    };
-  
-
-
-
-
-
-
-
-
     function filtrarProducto(event) {
         event.preventDefault();
         const filtro = document.getElementById('nombre').value.toLowerCase();
@@ -239,6 +208,9 @@ function Producto() {
   const [filtrado, setFiltrado] = useState(false);
   const [IVA, setIVA] = useState(false);
 
+
+  // Mostrar productos en consola al cargar el componente
+  
   useEffect(() => {
     productos.forEach(producto => {
       console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
