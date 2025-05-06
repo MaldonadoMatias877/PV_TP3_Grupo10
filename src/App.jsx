@@ -4,7 +4,7 @@ import Tarea from './assets/components/Tarea.jsx'
 function App(){
   return(
     <div>
-      <h1>Hola mundo</h1>
+      <h1></h1>
       <Producto/>
       <Tarea/>
     </div>
