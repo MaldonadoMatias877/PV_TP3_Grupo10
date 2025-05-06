@@ -1,0 +1,43 @@
+.app-container {
+    display: flex;
+    justify-content: space-between;
+      padding: 20px;
+    gap: 40px;
+}
+
+#lado-productos {
+    flex: 1;
+ border: 1px solid black;
+  padding: 20px;
+   border-radius: 8px;
+}
+#lado-productos button {
+   margin-right:  8px;
+   margin-button: 10px;
+}
+.lado-productos input {
+   margin-right: 10px;
+   margin-top: 10px;
+}
+.lista-productos {
+  margin-top: 10px;
+ padding-left: 20px;
+}
+#lado-tareas {
+  flex: 1;
+  border: 1px solid black;
+ padding: 20px;
+  border-radius: 8px;
+}
+#lista-tareas ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#lado-tareas li {
+  margin-bottom: 8px;
+}
+
+#lado-tareas button {
+  margin-left: 5px;
+}

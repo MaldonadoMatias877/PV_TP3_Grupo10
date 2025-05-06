@@ -38,8 +38,7 @@ function Tarea() {
     return (
         <div className="textoo">
              <h2 className='Lista' >Lista de tareas</h2>
-
-            <input
+            <input className='input'
                 type="text"
                 value={nuevaTarea}
                 onChange={(e) => setNuevaTarea(e.target.value)}
