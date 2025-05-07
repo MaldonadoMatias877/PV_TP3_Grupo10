@@ -160,6 +160,7 @@ function Producto() {
             </ul>
         </div>
         <>
+        {/*<div id='lado-productos'>*/}
             <form onSubmit={manejoDeLaLista}>
 
                 <input type="text" id="nombre" placeholder="Ingrese nombre" required />
@@ -172,10 +173,12 @@ function Producto() {
                 <button onClick={agregarIVA}>Agregar IVA</button>
                 <button onClick={eliminarMasBarato}>Eliminar más barato</button>
                 <button onClick={ordenarAlfabeticamente}>Ordenar</button>
-            </form>
+                </form>
 
-            <h2>Productos Agregados</h2>
-            <ul id="lista-productos"></ul>
+                <h2>Productos Agregados</h2>
+                <ul id="lista-productos"></ul>
+        {/*</div>*/}
+            
         </>
     );
 }
