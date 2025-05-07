@@ -32,6 +32,7 @@ function Tarea() {
 
     return (
         <div>
+        {/*<div id='lado-tareas'>*/}
             <h2>Lista de tareas</h2>
 
             <input
